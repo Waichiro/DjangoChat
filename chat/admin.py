@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Room, Massage
+from .models import Room, Message
 
 admin.site.register(Room)
-admin.site.register(Massage)
+admin.site.register(Message)
